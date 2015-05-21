@@ -1,14 +1,14 @@
 // Copyright (c) 2013-2015 K Team. All Rights Reserved.
 package org.kframework.backend.java.builtins;
 
-import java.math.BigInteger;
-
 import org.apache.commons.lang3.StringUtils;
 import org.kframework.backend.java.kil.Sort;
 import org.kframework.backend.java.kil.TermContext;
-import org.kframework.kil.FloatBuiltin;
 import org.kframework.backend.java.kil.Token;
+import org.kframework.kil.FloatBuiltin;
 import org.kframework.utils.StringUtil;
+
+import java.math.BigInteger;
 
 /**
  * Table of {@code public static} methods on builtin strings.
