@@ -129,6 +129,7 @@ public class StringBuiltin extends Token {
 
     @Override
     protected <P, R, E extends Throwable> R accept(Visitor<P, R, E> visitor, P p) throws E {
+        System.out.println("The string being visited is " + value);
         return visitor.complete(this, visitor.visit(this, p));
     }
 }
