@@ -6,6 +6,7 @@
   <include file="../../lesson_3/tests/config-det.xml" />
   <include file="../../lesson_3/tests/config-nondet.xml"
            more-programs = "."
-           more-results = "." />
+           more-results = "." 
+           exclude = "factorial-let.lambda"/>
 
 </tests>
